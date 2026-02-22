@@ -14,6 +14,7 @@ joining_date DATE,
 FOREIGN KEY (dept_id) references departments(dept_id)
 );
 
+
 CREATE INDEX idx_joining_date
 ON employees(joining_date)
 
@@ -30,3 +31,5 @@ MODIFY salary float8;
 
 ALTER TABLE STAFF
 DROP INDEX idx_joining_date;
+
+DROP DATABASE company_db
