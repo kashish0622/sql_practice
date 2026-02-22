@@ -15,4 +15,6 @@ joining_date DATE,
 FOREIGN KEY (dept_id) references departments(dept_id)
 );
 
+CREATE INDEX idx_joining_date
+ON employees(joining_date)
 
