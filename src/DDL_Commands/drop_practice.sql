@@ -2,6 +2,7 @@ CREATE TABLE departments(
 dept_id INT PRIMARY KEY,
 dept_name VARCHAR(50)
 );
+DROP TABLE departments;
 
 CREATE TABLE employees(
 employee_id INT PRIMARY KEY,
