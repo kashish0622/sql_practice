@@ -15,3 +15,8 @@ FOREIGN KEY (dept_id) references departments(dept_id)
 
 CREATE INDEX idx_joining_date
 ON employees(joining_date)
+
+ALTER TABLE employees
+RENAME TO STAFF;
+ALTER TABLE STAFF
+ADD gender VARCHAR(10);
