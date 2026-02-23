@@ -41,4 +41,4 @@ SET marks = 88
 WHERE stud_id = 104;
 
 COMMIT;
-
+SELECT * FROM student_info;
